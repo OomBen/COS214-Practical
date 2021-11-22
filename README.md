@@ -3,9 +3,12 @@
 ## About
 Our team was given the task to assist Elon Musk and his team to design a system to simulate SpaceX and Starlink. The final product will contribute to the planning and optimising that is put towards their launches. The Six Musketeers need to figure out a way in order to optimise the cost of each launch by choosing the best rocket configuration for the job. There are 2 rockets (the Falcon9 and the Falcon Heavy), 2 spacecrafts (the Crew Dragon and the Dragon) and the Starlink satellites that orbit around the planet in order to provide fast internet to everyone around the world.
 Our crew of computer scientists has decided to code a simulation of a rocket. During our studies, we were taught about design patterns and we all knew that they would be the most helpful tool in making our dream of helping thee Elon Musk become a reality. As soon as we got our initial design planned out, we got to work.
-
+<br>
+ 
 ## Code Source
 The code base is contained in a compressed file called Project.zip. It contains a 'main.cpp', 'makefile' and all the necessary (.h and .cpp) source files for the program to compile and run, as well as the relevant source files necessary for Google unit tests.
+<br>
+ 
 
 ## Compile and Run
 ##### 1: Extract the contents of the Project.zip file.
@@ -13,6 +16,8 @@ The code base is contained in a compressed file called Project.zip. It contains 
 ##### *2.5: [Optional]* Type the command "cmake CMakeLists.txt". For verbose unit testing output.
 ##### 3: Type the command "make" to initialize the compilation operation of the makefile
 ##### 4: Type "./runTests" to start the program execution
+<br>
+ 
  
 ## Program Guide: Construction
  
@@ -72,12 +77,32 @@ The code base is contained in a compressed file called Project.zip. It contains 
 
 ## Program Guide: Simulation
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
+## Program Guide: Satellite Communication
+> This is only available when the rocket construction contains satellites. <br> 
+#### "How would you like to use the Satellite Communication Network?"
+> [Press 1] Send A Message To A Satellite : relays a string from one satellite to another <br>
+> [Press 2] Force Satellite Error State: simulates an outer space 'anomaly' to see how it affects the satellite network <br> 
+#### If [1] "Input Receiver ID:  "
+> Enter the ID (positive integer) of the receiving satellite <br>
+#### "Input Sender ID: " 
+> Enter the ID (positive integer) of the messenger satellite <br>
+#### "Input Message: "
+> Enter the message which you would like to transmit via satellite <br>
+<br>
+
+#### If [2] "Provide the ID of the satellite for which you wish to alter status: "
+> Provide an ID (positive integer less than 60) to specify a satellite <br>
+
+#### "Select a new status: "
+> [Press 1] Broadcasting <br>
+> [Press 2] Online <br>
+> [Press 3] Offline <br>
+
+#### "Continue using the Satellite Communication Network?"
+> [Press 1] Yes. Takes you back to the initial Satellite Communications prompt <br>
+> [Press 2] No. Ends this part of the simulation <br>
+
+
+
+
+
