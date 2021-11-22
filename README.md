@@ -12,6 +12,9 @@ The code base is contained in a compressed file called <filename>.zip. It contai
 ##### 3: Type the command "make run" and the program should compile and prompt you for input.
 
 ## Program Guide
-You will first be prompted to specify the rocket type (i.e Falcon 9 [option 1] and Falcon Heavy [option 2]). This will show which is being constructed.
-
-....continue with this once the program is more completed
+#### "What kind of rocket would you like to build?"
+[press 1] for Falcon 9 (single core rocket body) or [press 2] for Falcon Heavy (3-core rocket body)
+#### "Would you like to add a capsule?" 
+[press 1] for Yes and [press 2] for No. Option 1 allows you to choose any of the Dragon capsule variants or alternatively a batch of Starlink satellites. Option 2 gives you a rocket without anything attached.
+#### "
+ 
