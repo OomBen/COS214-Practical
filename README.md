@@ -6,12 +6,12 @@ Our crew of computer scientists has decided to code a simulation of a rocket. Du
 <br>
  
 ## Code Source
-The code base is contained in a compressed file called Project.zip. It contains a 'main.cpp', 'makefile' and all the necessary (.h and .cpp) source files for the program to compile and run, as well as the relevant source files necessary for Google unit tests.
+The code base is contained in a compressed file called System.zip. It contains a 'main.cpp', 'makefile' and all the necessary (.h and .cpp) source files for the program to compile and run, as well as the relevant source files necessary for Google unit tests.
 <br>
  
 
 ## Compile and Run
-> ##### 1: Extract the contents of the Project.zip file.
+> ##### 1: Extract the contents of the System.zip file.
 > ##### 2: Open the command prompt (Windows) or terminal (Linux) and navigate to the directory of the extracted content.
 > ##### *2.5: [Optional]* Type the command "cmake CMakeLists.txt". For verbose unit testing output.
 > ##### 3: Type the command "make" to initialize the compilation operation of the makefile
