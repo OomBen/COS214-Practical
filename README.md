@@ -13,9 +13,8 @@ The code base is contained in a compressed file called System.zip. It contains a
 ## Compile and Run
 > ##### 1: Extract the contents of the System.zip file.
 > ##### 2: Open the command prompt (Windows) or terminal (Linux) and navigate to the directory of the extracted content.
-> ##### *2.5: [Optional]* Type the command "cmake CMakeLists.txt". For verbose unit testing output.
 > ##### 3: Type the command "make" to initialize the compilation operation of the makefile
-> ##### 4: Type "./runTests" to start the program execution
+> ##### 4: Type "make run" compile and start the program execution
 <br>
  
  
