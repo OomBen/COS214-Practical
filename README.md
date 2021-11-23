@@ -11,11 +11,11 @@ The code base is contained in a compressed file called Project.zip. It contains 
  
 
 ## Compile and Run
-##### 1: Extract the contents of the Project.zip file.
-##### 2: Open the command prompt (Windows) or terminal (Linux) and navigate to the directory of the extracted content.
-##### *2.5: [Optional]* Type the command "cmake CMakeLists.txt". For verbose unit testing output.
-##### 3: Type the command "make" to initialize the compilation operation of the makefile
-##### 4: Type "./runTests" to start the program execution
+> ##### 1: Extract the contents of the Project.zip file.
+> ##### 2: Open the command prompt (Windows) or terminal (Linux) and navigate to the directory of the extracted content.
+> ##### *2.5: [Optional]* Type the command "cmake CMakeLists.txt". For verbose unit testing output.
+> ##### 3: Type the command "make" to initialize the compilation operation of the makefile
+> ##### 4: Type "./runTests" to start the program execution
 <br>
  
  
@@ -76,7 +76,40 @@ The code base is contained in a compressed file called Project.zip. It contains 
  <br>
 
 ## Program Guide: Simulation
- 
+#### "Would you like to build a new simulation or use a pre made one?"
+> [press 1] Build My Own : creates and stores new user defined simulation <br>
+> [press 2] Pre-made : use the default. Automatically generated <br>
+> [press 3] Restore your most recent rocket : recreate from last build <br>
+> [press 4] Run all your saved simulations : batch run <br>
+#### [1]: "What would you like stage 1 to do?"
+> [press 1] Static-Fire Test : tests all the Merlin engines attached to the rocket core <br>
+> [press 2] Jettison Fairing : open Fairing to expose satellites <br>
+> [press 3] Seperate Boosters : initiates next stage <br>
+> [press 4] Distribute Satellites : Spin and decouples all satellites to spread them out over time <br>
+> [press 5] Deliver Crew : command sent to Capsule to transport cre to/from ISS <br>
+> [press 6] Use Communications Network : see Communications Network below <br>
+> [press 7] Fire Merlin Engines : Ignites all engines simultaneously <br>
+> [press 8] Fire Vacuum Merlin Engines: Ignites all second stage engines <br>
+#### [2]: "Would you like to launch your rocket?"
+> Input 'y' [Yes] or 'n' [No] <br>
+#### [After]: "Would you like to make another rocket?"
+> Gives you the option to start this process from the start again <br>
+#### [If retreiving a simulation]: "What would you like to do with your simulation?"
+> [press 1] Add another stage : increase the stage count <br>
+> [press 2] Edit Simulation : Tweak aspects of the simulation <br>
+> [press 3] Save Simulation : store simulation instance <br>
+> [press 4] Run Simulation : Execute all rocket functions <br>
+> [press 5] Print Simulation : Outputs verbose information about simulation <br>
+> [press 6] Exit Editor : Terminates Simulation section of program <br>
+#### [2]: "How would you like to edit your simulation?"
+> [press 1] Swap Staging Order: bad idea but you can have stage 2 fire before stage 1 <br>
+> [press 2] Remove Stage <br>
+> [press 3] <br>
+<br>
+<br>
+<br>
+
+
 ## Program Guide: Satellite Communication
 > This is only available when the rocket construction contains satellites. <br> 
 #### "How would you like to use the Satellite Communication Network?"
