@@ -1,4 +1,4 @@
-# COS214 Project - The 6 Musketeers
+# Design Patterns Project - The 6 Musketeers
 
 ## About
 Our team was given the task to assist Elon Musk and his team to design a system to simulate SpaceX and Starlink. The final product will contribute to the planning and optimising that is put towards their launches. The Six Musketeers need to figure out a way in order to optimise the cost of each launch by choosing the best rocket configuration for the job. There are 2 rockets (the Falcon9 and the Falcon Heavy), 2 spacecrafts (the Crew Dragon and the Dragon) and the Starlink satellites that orbit around the planet in order to provide fast internet to everyone around the world.
